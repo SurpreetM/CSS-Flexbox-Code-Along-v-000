@@ -21,6 +21,7 @@ main {
   align-content: center
 }
 
+
 .item {
   height: 100px;
   width: 100px;
@@ -39,4 +40,9 @@ footer {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
+}
+
+.setWidth {
+  flex-basis: 100px;
+  flex-grow: 1;
 }
